@@ -19,9 +19,20 @@ A jade library configured to work with li3_jade can be found [here](https://gith
    | If you don't know about it
    a(href="http://jade-lang.com/") Get on it!
 </pre>
+renders
+<pre>
+	This is inline php.
+	&lt;h2>The Jade template engine&lt;/h2>
+		&lt;div id="container">
+  	&lt;p style="white-space:pre;">
+    	Jade makes writing HTML EASY and Beautiful
+    	If you don't know about it
+    	&lt;a href="http://jade-lang.com/">Get on it!&lt;/a>
+  	&lt;/p>
+</pre>
 ### Render the template from a controller ###
 <pre>
- &lt?php
+ &lt;?php
   	namespace app\controllers;
   	
   	Class JadeController extends \lithium\action\Controller
@@ -34,5 +45,5 @@ A jade library configured to work with li3_jade can be found [here](https://gith
   			));
   		}
   	}
- ?&gt
+ ?>
 </pre>
