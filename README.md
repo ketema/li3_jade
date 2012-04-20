@@ -1,5 +1,5 @@
 # A lithium jade template compiler and renderer #
-## Usage: ##  
+## Usage: ##
 Add to your li3 project in the <pre>libraries/jade/</pre> folder
 and adjust the bootstrap/libraries.php file  
 <pre>
@@ -21,7 +21,7 @@ A jade library configured to work with li3_jade can be found [here](https://gith
 </pre>
 ### Render the template from a controller ###
 <pre>
- &LT?php
+ &lt?php
   	namespace app\controllers;
   	
   	Class JadeController extends \lithium\action\Controller
