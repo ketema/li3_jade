@@ -23,7 +23,6 @@ renders
 <pre>
 	This is inline php.
 	&lt;h2>The Jade template engine&lt;/h2>
-		&lt;div id="container">
   	&lt;p style="white-space:pre;">
     	Jade makes writing HTML EASY and Beautiful
     	If you don't know about it
